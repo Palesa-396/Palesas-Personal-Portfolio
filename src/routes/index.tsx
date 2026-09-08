@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroImage from "../assets/hero.jpg";
+import cvAsset from "../assets/Palesa_Fusi_CV.docx.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -370,15 +371,16 @@ function Index() {
               </p>
             </a>
             <a
-              href="#"
-              title="LinkedIn URL to be added"
+              href="https://www.linkedin.com/in/palesa-fusi-4b41161ba"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-2xl border border-white/10 bg-surface/50 p-5 transition hover:border-accent-cyan/50"
             >
               <p className="text-xs uppercase tracking-widest text-slate-500">
                 LinkedIn
               </p>
-              <p className="mt-2 font-display font-semibold">
-                /palesa-angela-fusi
+              <p className="mt-2 break-words font-display font-semibold">
+                /palesa-fusi-4b41161ba
               </p>
             </a>
             <a
@@ -398,7 +400,10 @@ function Index() {
             </p>
             <a
               id="cv"
-              href="#"
+              href={cvAsset.url}
+              download="Palesa_Fusi_CV.docx"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full border border-accent-cyan/40 bg-accent-cyan/10 px-6 py-3 font-display text-sm font-bold text-accent-cyan transition hover:bg-accent-cyan hover:text-ink"
             >
               Download CV
