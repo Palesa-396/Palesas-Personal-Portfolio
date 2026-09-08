@@ -39,6 +39,7 @@ function Index() {
             <a href="#about" className="transition hover:text-white">About</a>
             <a href="#skills" className="transition hover:text-white">Skills</a>
             <a href="#work" className="transition hover:text-white">Work</a>
+            <a href="#experience" className="transition hover:text-white">Experience</a>
             <a href="#education" className="transition hover:text-white">Education</a>
             <a href="#contact" className="transition hover:text-white">Contact</a>
           </div>
