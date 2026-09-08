@@ -451,14 +451,15 @@ function Index() {
               </p>
             </a>
             <a
-              href="#"
-              title="GitHub URL to be added"
+              href="https://github.com/Palesa-396"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-2xl border border-white/10 bg-surface/50 p-5 transition hover:border-accent-cyan/50"
             >
               <p className="text-xs uppercase tracking-widest text-slate-500">
                 GitHub
               </p>
-              <p className="mt-2 font-display font-semibold">@palesafusi</p>
+              <p className="mt-2 font-display font-semibold">@Palesa-396</p>
             </a>
           </div>
           <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-8">
