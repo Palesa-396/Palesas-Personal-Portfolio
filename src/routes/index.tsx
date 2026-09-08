@@ -275,6 +275,72 @@ function Index() {
         </div>
       </section>
 
+      {/* EXPERIENCE */}
+      <section id="experience" className="border-t border-white/10">
+        <div className="mx-auto max-w-6xl px-5 py-20">
+          <p className="font-display text-xs font-semibold uppercase tracking-[0.25em] text-accent-cyan">
+            Experience
+          </p>
+          <h2 className="mt-3 max-w-2xl font-display text-4xl font-bold tracking-tight">
+            Vacation work
+          </h2>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            <article className="rounded-2xl border border-white/10 bg-surface/50 p-6 transition hover:border-accent-cyan/50">
+              <p className="font-display text-sm font-semibold text-accent-cyan">
+                Dec 2025 — Jan 2026
+              </p>
+              <h3 className="mt-2 font-display text-xl font-bold leading-tight">
+                Vacation Work Assistant
+              </h3>
+              <p className="text-sm text-slate-400">P&amp;D Cleaning Services</p>
+              <p className="mt-4 text-sm leading-relaxed text-slate-400">
+                Managed specialised equipment to keep day-to-day services
+                running smoothly. Worked closely with clients, handling
+                enquiries and service requests through to full satisfaction.
+              </p>
+              <div className="mt-5 flex flex-wrap gap-2">
+                <span className="rounded bg-white/5 px-2.5 py-1 text-xs text-slate-300">
+                  Client service
+                </span>
+                <span className="rounded bg-white/5 px-2.5 py-1 text-xs text-slate-300">
+                  Equipment handling
+                </span>
+              </div>
+            </article>
+
+            <article className="rounded-2xl border border-white/10 bg-surface/50 p-6 transition hover:border-accent-cyan/50">
+              <p className="font-display text-sm font-semibold text-accent-cyan">
+                Dec 2024 — Jan 2025
+              </p>
+              <h3 className="mt-2 font-display text-xl font-bold leading-tight">
+                Vacation Work Assistant
+              </h3>
+              <p className="text-sm text-slate-400">
+                Cat Computers Internet Café
+              </p>
+              <p className="mt-4 text-sm leading-relaxed text-slate-400">
+                Supported customers in a fast-paced public computing
+                environment with digital and administrative services. Used
+                Microsoft Word and Excel for document creation, formatting and
+                data management, while overseeing high-volume printing,
+                scanning and electronic document distribution.
+              </p>
+              <div className="mt-5 flex flex-wrap gap-2">
+                <span className="rounded bg-white/5 px-2.5 py-1 text-xs text-slate-300">
+                  Microsoft Word
+                </span>
+                <span className="rounded bg-white/5 px-2.5 py-1 text-xs text-slate-300">
+                  Microsoft Excel
+                </span>
+                <span className="rounded bg-white/5 px-2.5 py-1 text-xs text-slate-300">
+                  Customer support
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       {/* EDUCATION + CERTS */}
       <section id="education" className="border-t border-white/10 bg-surface/40">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-20 lg:grid-cols-2">
