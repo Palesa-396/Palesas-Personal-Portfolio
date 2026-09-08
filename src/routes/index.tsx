@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroImage from "../assets/hero.jpg";
-import cvAsset from "../assets/Palesa_Fusi_CV.docx.asset.json";
+import cvAsset from "../assets/Palesa_Fusi_CV.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -401,7 +401,7 @@ function Index() {
             <a
               id="cv"
               href={cvAsset.url}
-              download="Palesa_Fusi_CV.docx"
+              download="Palesa_Fusi_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-accent-cyan/40 bg-accent-cyan/10 px-6 py-3 font-display text-sm font-bold text-accent-cyan transition hover:bg-accent-cyan hover:text-ink"
